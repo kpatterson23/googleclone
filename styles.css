@@ -130,3 +130,37 @@ button:hover {
     box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.panel {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.panel > * {
+    flex-basis: 33%;
+}
+
+p {
+    color: grey;
+    padding-left: 13px;
+}
+
+.carbon {
+    text-align: center;
+}
+
+.leaf {
+    width: 12px;
+}
+
+.right {
+    justify-content: flex-end;
+}
